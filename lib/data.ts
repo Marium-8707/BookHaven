@@ -1,0 +1,471 @@
+export const books = [
+  {
+    id: "1",
+    title: "Meditations",
+    author: "Marcus Aurelius",
+    coverImage: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=687&auto=format&fit=crop",
+    description:
+      "A series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 AD, recording his private notes to himself and ideas on Stoic philosophy.",
+    longDescription:
+      "Meditations is a series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 AD, recording his private notes to himself and ideas on Stoic philosophy. Marcus Aurelius wrote the 12 books of the Meditations in Koine Greek as a source for his own guidance and self-improvement. It is possible that large portions of the work were written at Sirmium, where he spent much time planning military campaigns from 170 to 180. Some of it was written while he was positioned at Aquincum on campaign in Pannonia, because internal notes tell us that the first book was written when he was campaigning against the Quadi on the river Granova and the second book was written at Carnuntum.",
+    genre: "Philosophy",
+    rating: 4.8,
+    pages: 304,
+    year: 180,
+    publisher: "Penguin Classics",
+    language: "English",
+    isbn: "978-0140449334",
+    authorBio:
+      "Marcus Aurelius was Roman emperor from 161 to 180 and a Stoic philosopher. He was the last of the rulers known as the Five Good Emperors, and the last emperor of the Pax Romana, an age of relative peace and stability for the Roman Empire.",
+    themes: ["Stoicism", "Self-reflection", "Virtue", "Mortality", "Nature"],
+  },
+  {
+    id: "2",
+    title: "Beyond Good and Evil",
+    author: "Friedrich Nietzsche",
+    coverImage: "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=1512&auto=format&fit=crop",
+    description:
+      "Nietzsche's comprehensive critique of traditional morality and philosophy, proposing a new approach to ethics and truth.",
+    longDescription:
+      "Beyond Good and Evil: Prelude to a Philosophy of the Future is a book by philosopher Friedrich Nietzsche that expands the ideas of his previous work, Thus Spoke Zarathustra, with a more critical and polemical approach. It was first published in 1886. In Beyond Good and Evil, Nietzsche accuses past philosophers of lacking critical sense and blindly accepting dogmatic premises in their consideration of morality. Specifically, he accuses them of founding grand metaphysical systems upon the faith that the good man is the opposite of the evil man, rather than just a different expression of the same basic impulses that find more direct expression in the evil man.",
+    genre: "Philosophy",
+    rating: 4.6,
+    pages: 240,
+    year: 1886,
+    publisher: "Vintage Books",
+    language: "English",
+    isbn: "978-0679724650",
+    authorBio:
+      "Friedrich Wilhelm Nietzsche was a German philosopher, cultural critic, composer, poet, and philologist whose work has exerted a profound influence on modern intellectual history.",
+    themes: ["Morality", "Truth", "Will to Power", "Perspectivism", "Nihilism"],
+  },
+  {
+    id: "3",
+    title: "The Republic",
+    author: "Plato",
+    coverImage: "https://images.unsplash.com/photo-1535905557558-afc4877a26fc?q=80&w=687&auto=format&fit=crop",
+    description:
+      "Plato's best-known work, exploring justice, order, and character through a Socratic dialogue about the ideal city-state.",
+    longDescription:
+      "The Republic is a Socratic dialogue, authored by Plato around 375 BCE, concerning justice, the order and character of the just city-state, and the just man. It is Plato's best-known work, and has proven to be one of the world's most influential works of philosophy and political theory, both intellectually and historically. In the dialogue, Socrates talks with various Athenians and foreigners about the meaning of justice and whether the just man is happier than the unjust man. They consider the natures of existing regimes and then propose a series of different, hypothetical cities in comparison, culminating in Kallipolis, a utopian city-state ruled by a philosopher-king.",
+    genre: "Philosophy",
+    rating: 4.7,
+    pages: 416,
+    year: -375,
+    publisher: "Oxford University Press",
+    language: "English",
+    isbn: "978-0199535767",
+    authorBio:
+      "Plato was an Athenian philosopher during the Classical period in Ancient Greece, founder of the Platonist school of thought, and the Academy, the first institution of higher learning in the Western world.",
+    themes: ["Justice", "Governance", "Education", "Metaphysics", "Ethics"],
+  },
+  {
+    id: "4",
+    title: "Thinking, Fast and Slow",
+    author: "Daniel Kahneman",
+    coverImage: "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1373&auto=format&fit=crop",
+    description:
+      "Nobel Prize winner Daniel Kahneman's exploration of the two systems that drive the way we think and make choices.",
+    longDescription:
+      "In the highly anticipated Thinking, Fast and Slow, Kahneman takes us on a groundbreaking tour of the mind and explains the two systems that drive the way we think. System 1 is fast, intuitive, and emotional; System 2 is slower, more deliberative, and more logical. Kahneman exposes the extraordinary capabilities—and also the faults and biases—of fast thinking, and reveals the pervasive influence of intuitive impressions on our thoughts and behavior. The impact of loss aversion and overconfidence on corporate strategies, the difficulties of predicting what will make us happy in the future, the challenges of properly framing risks at work and at home, the profound effect of cognitive biases on everything from playing the stock market to planning the next vacation—each of these can be understood only by knowing how the two systems work together to shape our judgments and decisions.",
+    genre: "Psychology",
+    rating: 4.6,
+    pages: 499,
+    year: 2011,
+    publisher: "Farrar, Straus and Giroux",
+    language: "English",
+    isbn: "978-0374533557",
+    authorBio:
+      "Daniel Kahneman is an Israeli-American psychologist and economist notable for his work on the psychology of judgment and decision-making, as well as behavioral economics, for which he was awarded the 2002 Nobel Memorial Prize in Economic Sciences.",
+    themes: ["Cognitive Biases", "Decision Making", "Behavioral Economics", "Rationality", "Psychology"],
+  },
+  {
+    id: "5",
+    title: "A Brief History of Time",
+    author: "Stephen Hawking",
+    coverImage: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1422&auto=format&fit=crop",
+    description:
+      "Stephen Hawking's landmark exploration of the universe, from big bang to black holes, aimed at non-specialist readers.",
+    longDescription:
+      "A Brief History of Time: From the Big Bang to Black Holes is a popular-science book on cosmology by English physicist Stephen Hawking. It was first published in 1988. Hawking wrote the book for readers without prior knowledge of the universe and people who are just interested in learning something new. In A Brief History of Time, Hawking writes in non-technical terms about the structure, origin, development and eventual fate of the universe, which is the object of study of astronomy and modern physics. He talks about basic concepts like space and time, basic building blocks that make up the universe (such as quarks) and the fundamental forces that govern it (such as gravity). He writes about cosmological phenomena such as the Big Bang and black holes. He discusses two major theories, general relativity and quantum mechanics, that modern scientists use to describe the universe.",
+    genre: "Science",
+    rating: 4.7,
+    pages: 212,
+    year: 1988,
+    publisher: "Bantam Books",
+    language: "English",
+    isbn: "978-0553380163",
+    authorBio:
+      "Stephen William Hawking was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death.",
+    themes: ["Cosmology", "Physics", "Time", "Black Holes", "Universe"],
+  },
+  {
+    id: "6",
+    title: "Sapiens: A Brief History of Humankind",
+    author: "Yuval Noah Harari",
+    coverImage: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?q=80&w=1470&auto=format&fit=crop",
+    description:
+      "A sweeping narrative of humanity's creation and evolution that explores how biology and history have defined us.",
+    longDescription:
+      "Sapiens: A Brief History of Humankind is a book by Yuval Noah Harari, first published in Hebrew in Israel in 2011 based on a series of lectures Harari taught at The Hebrew University of Jerusalem, and in English in 2014. The book surveys the history of humankind from the evolution of archaic human species in the Stone Age up to the twenty-first century, focusing on Homo sapiens. The account is situated within a framework that intersects the natural sciences with the social sciences. The book has gathered widespread interest from the general public, becoming a worldwide bestseller. It has been translated into more than sixty languages and has sold more than 16 million copies worldwide.",
+    genre: "History",
+    rating: 4.5,
+    pages: 464,
+    year: 2014,
+    publisher: "Harper",
+    language: "English",
+    isbn: "978-0062316097",
+    authorBio:
+      "Yuval Noah Harari is an Israeli public intellectual, historian and a professor in the Department of History at the Hebrew University of Jerusalem. He is the author of the popular science bestsellers Sapiens: A Brief History of Humankind, Homo Deus: A Brief History of Tomorrow, and 21 Lessons for the 21st Century.",
+    themes: [
+      "Human Evolution",
+      "Anthropology",
+      "Cognitive Revolution",
+      "Agricultural Revolution",
+      "Scientific Revolution",
+    ],
+  },
+  {
+    id: "7",
+    title: "The Interpretation of Dreams",
+    author: "Sigmund Freud",
+    coverImage: "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=1290&auto=format&fit=crop",
+    description:
+      "Freud's groundbreaking work on the theory of the unconscious mind and the significance of dreams in psychological analysis.",
+    longDescription:
+      "The Interpretation of Dreams is an 1899 book by Sigmund Freud, the founder of psychoanalysis, in which the author introduces his theory of the unconscious with respect to dream interpretation, and discusses what would later become the theory of the Oedipus complex. Freud revised the book at least eight times and, in the third edition, added an extensive section which treated dream symbolism very literally, following the influence of Wilhelm Stekel. Freud said of this work, 'Insight such as this falls to one's lot but once in a lifetime.' The book was first published in German in November 1899 as Die Traumdeutung, with a date of 1900 given on the title page. The original edition was barely 600 pages, and the final edition of Freud's lifetime, the eighth (1930), was more than 800 pages.",
+    genre: "Psychology",
+    rating: 4.4,
+    pages: 630,
+    year: 1899,
+    publisher: "Basic Books",
+    language: "English",
+    isbn: "978-0465019779",
+    authorBio:
+      "Sigmund Freud was an Austrian neurologist and the founder of psychoanalysis, a clinical method for treating psychopathology through dialogue between a patient and a psychoanalyst.",
+    themes: ["Dreams", "Unconscious Mind", "Psychoanalysis", "Symbolism", "Repression"],
+  },
+  {
+    id: "8",
+    title: "The Structure of Scientific Revolutions",
+    author: "Thomas S. Kuhn",
+    coverImage: "https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?q=80&w=1470&auto=format&fit=crop",
+    description:
+      "A landmark in intellectual history that transformed our understanding of how scientific progress occurs.",
+    longDescription:
+      "The Structure of Scientific Revolutions is a book about the history of science by the philosopher Thomas S. Kuhn. Its publication in 1962 was a landmark event in the history, philosophy, and sociology of science. Kuhn challenged the then prevailing view of progress in 'normal science'. Normal scientific progress was viewed as 'development-by-accumulation' of accepted facts and theories. Kuhn argued for an episodic model in which periods of conceptual continuity where there is cumulative progress, which Kuhn referred to as periods of 'normal science', were interrupted by periods of revolutionary science. The discovery of 'anomalies' during revolutions in science leads to new paradigms. New paradigms then ask new questions of old data, move beyond the mere 'puzzle-solving' of the previous paradigm, change the rules of the game and the 'map' directing new research.",
+    genre: "Science",
+    rating: 4.5,
+    pages: 264,
+    year: 1962,
+    publisher: "University of Chicago Press",
+    language: "English",
+    isbn: "978-0226458120",
+    authorBio:
+      "Thomas Samuel Kuhn was an American philosopher of science whose 1962 book The Structure of Scientific Revolutions was influential in both academic and popular circles, introducing the term paradigm shift, which has since become an English-language idiom.",
+    themes: [
+      "Philosophy of Science",
+      "Paradigm Shifts",
+      "Scientific Progress",
+      "Normal Science",
+      "Scientific Revolutions",
+    ],
+  },
+  {
+    id: "9",
+    title: "Man's Search for Meaning",
+    author: "Viktor E. Frankl",
+    coverImage: "https://images.unsplash.com/photo-1490633874781-1c63cc424610?q=80&w=1470&auto=format&fit=crop",
+    description: "Frankl's memoir of life in Nazi death camps and its lessons for spiritual survival.",
+    longDescription:
+      "Man's Search for Meaning is a 1946 book by Viktor Frankl chronicling his experiences as a prisoner in Nazi concentration camps during World War II, and describing his psychotherapeutic method, which involved identifying a purpose in life to feel positive about, and then immersively imagining that outcome. According to Frankl, the way a prisoner imagined the future affected his longevity. The book intends to answer the question 'How was everyday life in a concentration camp reflected in the mind of the average prisoner?' Part One constitutes Frankl's analysis of his experiences in the concentration camps, while Part Two introduces his ideas of meaning and his theory called logotherapy.",
+    genre: "Psychology",
+    rating: 4.7,
+    pages: 184,
+    year: 1946,
+    publisher: "Beacon Press",
+    language: "English",
+    isbn: "978-0807014295",
+    authorBio:
+      "Viktor Emil Frankl was an Austrian neurologist, psychiatrist, philosopher, author, and Holocaust survivor. He was the founder of logotherapy, a school of psychotherapy which describes a search for a life's meaning as the central human motivational force.",
+    themes: ["Meaning of Life", "Suffering", "Resilience", "Existentialism", "Human Psychology"],
+  },
+  {
+    id: "10",
+    title: "The Art of War",
+    author: "Sun Tzu",
+    coverImage: "https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=1470&auto=format&fit=crop",
+    description:
+      "An ancient Chinese military treatise dating from the 5th century BC, regarded as a masterpiece on strategy and tactics.",
+    longDescription:
+      "The Art of War is an ancient Chinese military treatise dating from the Late Spring and Autumn Period (roughly 5th century BC). The work, which is attributed to the ancient Chinese military strategist Sun Tzu, is composed of 13 chapters. Each one is devoted to an aspect of warfare and how it applies to military strategy and tactics. For almost 1,500 years it was the lead text in an anthology that was formalized as the Seven Military Classics by Emperor Shenzong of Song in 1080. The Art of War remains the most influential strategy text in East Asian warfare and has influenced both Eastern and Western military thinking, business tactics, legal strategy, politics, sports, and lifestyles.",
+    genre: "Philosophy",
+    rating: 4.5,
+    pages: 273,
+    year: -500,
+    publisher: "Filiquarian",
+    language: "English",
+    isbn: "978-1599869773",
+    authorBio:
+      "Sun Tzu was a Chinese general, military strategist, writer, and philosopher who lived in the Eastern Zhou period of ancient China. Sun Tzu is traditionally credited as the author of The Art of War, an influential work of military strategy that has affected Western and East Asian philosophy and military thinking.",
+    themes: ["Strategy", "Leadership", "Warfare", "Tactics", "Philosophy"],
+  },
+  {
+    id: "11",
+    title: "The Selfish Gene",
+    author: "Richard Dawkins",
+    coverImage: "https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?q=80&w=1470&auto=format&fit=crop",
+    description:
+      "A landmark work in the field of evolutionary biology that introduced the concept of gene-centered evolution.",
+    longDescription:
+      "The Selfish Gene is a 1976 book on evolution by the biologist Richard Dawkins, in which the author builds upon the principal theory of George C. Williams's Adaptation and Natural Selection (1966). Dawkins uses the term 'selfish gene' as a way of expressing the gene-centred view of evolution (as opposed to the views focused on the organism and the group), popularising ideas developed during the 1960s by W. D. Hamilton and others. From the gene-centred view, it follows that the more two individuals are genetically related, the more sense (at the level of the genes) it makes for them to behave selflessly with each other.",
+    genre: "Science",
+    rating: 4.5,
+    pages: 360,
+    year: 1976,
+    publisher: "Oxford University Press",
+    language: "English",
+    isbn: "978-0198788607",
+    authorBio:
+      "Richard Dawkins is a British evolutionary biologist, ethologist, and author. He is an emeritus fellow of New College, Oxford, and was the University of Oxford's Professor for Public Understanding of Science from 1995 until 2008.",
+    themes: ["Evolution", "Genetics", "Natural Selection", "Altruism", "Biology"],
+  },
+  {
+    id: "12",
+    title: "Critique of Pure Reason",
+    author: "Immanuel Kant",
+    coverImage: "https://images.unsplash.com/photo-1491841550275-ad7854e35ca6?q=80&w=1374&auto=format&fit=crop",
+    description: "Kant's magnum opus that revolutionized philosophy by synthesizing rationalism and empiricism.",
+    longDescription:
+      "The Critique of Pure Reason is a book by the German philosopher Immanuel Kant, in which the author seeks to determine the limits and scope of metaphysics. Also referred to as Kant's 'First Critique', it was followed by the Critique of Practical Reason (1788) and the Critique of Judgment (1790). In the preface to the first edition, Kant explains that by a 'critique of pure reason' he means a critique 'of the faculty of reason in general, in respect of all knowledge after which it may strive independently of all experience' and that he aims to reach a decision about 'the possibility or impossibility of metaphysics'.",
+    genre: "Philosophy",
+    rating: 4.6,
+    pages: 796,
+    year: 1781,
+    publisher: "Cambridge University Press",
+    language: "English",
+    isbn: "978-0521657297",
+    authorBio:
+      "Immanuel Kant was a German philosopher and one of the central Enlightenment thinkers. Kant's comprehensive and systematic works in epistemology, metaphysics, ethics, and aesthetics have made him one of the most influential figures in modern Western philosophy.",
+    themes: ["Metaphysics", "Epistemology", "Transcendental Idealism", "Reason", "Knowledge"],
+  },
+]
+
+export const reviews = [
+  {
+    id: "1",
+    bookId: "1",
+    name: "Asad Khan",
+    avatar: "https://i.pravatar.cc/150?u=asad",
+    rating: 5,
+    date: "March 15, 2023",
+    content:
+      "This book has profoundly changed my perspective on life. Marcus Aurelius's reflections on virtue, mortality, and the nature of the universe are as relevant today as they were almost two millennia ago. The translation is excellent, making the ancient wisdom accessible to modern readers.",
+  },
+  {
+    id: "2",
+    bookId: "1",
+    name: "Fatima Zahra",
+    avatar: "https://i.pravatar.cc/150?u=fatima",
+    rating: 4,
+    date: "January 22, 2023",
+    content:
+      "Meditations offers timeless wisdom that can be applied to our daily lives. The stoic philosophy presented here has helped me maintain perspective during difficult times. Some passages require multiple readings to fully grasp, but the effort is well worth it.",
+  },
+  {
+    id: "3",
+    bookId: "1",
+    name: "Muhammad Imran",
+    avatar: "https://i.pravatar.cc/150?u=imran",
+    rating: 5,
+    date: "November 5, 2022",
+    content:
+      "I find myself returning to this book again and again. Each reading reveals new insights and practical wisdom. Marcus Aurelius's humility despite being one of the most powerful men in the world is truly inspiring. This should be required reading for everyone, especially those in positions of leadership.",
+  },
+  {
+    id: "4",
+    bookId: "2",
+    name: "Zainab Ahmed",
+    avatar: "https://i.pravatar.cc/150?u=zainab",
+    rating: 5,
+    date: "April 3, 2023",
+    content:
+      "Nietzsche's critique of traditional morality is both provocative and profound. This book challenges conventional thinking and forces the reader to question deeply held assumptions. The translation captures Nietzsche's poetic and aphoristic style beautifully.",
+  },
+  {
+    id: "5",
+    bookId: "2",
+    name: "Ali Hassan",
+    avatar: "https://i.pravatar.cc/150?u=ali",
+    rating: 4,
+    date: "February 17, 2023",
+    content:
+      "A challenging but rewarding read. Nietzsche's ideas about the will to power and his critique of objective truth continue to influence contemporary philosophy. Some sections are dense and require careful reading, but the insights gained are worth the effort.",
+  },
+  {
+    id: "6",
+    bookId: "3",
+    name: "Saima Malik",
+    avatar: "https://i.pravatar.cc/150?u=saima",
+    rating: 5,
+    date: "May 12, 2023",
+    content:
+      "Plato's Republic remains one of the most important works in Western philosophy. The dialogues are engaging and the questions raised about justice, education, and the ideal society are still relevant today. This translation is accessible while preserving the depth of Plato's thought.",
+  },
+  {
+    id: "7",
+    bookId: "3",
+    name: "Omar Farooq",
+    avatar: "https://i.pravatar.cc/150?u=omar",
+    rating: 4,
+    date: "March 28, 2023",
+    content:
+      "The allegory of the cave alone makes this book worth reading. Plato's exploration of justice and the ideal state provides a foundation for understanding political philosophy. While some arguments may seem dated, the fundamental questions about human nature and society remain relevant.",
+  },
+  {
+    id: "8",
+    bookId: "4",
+    name: "Ayesha Tariq",
+    avatar: "https://i.pravatar.cc/150?u=ayesha",
+    rating: 5,
+    date: "June 5, 2023",
+    content:
+      "Kahneman brilliantly explains the two systems that drive our thinking and decision-making. The book is filled with fascinating experiments and real-world examples that illustrate our cognitive biases. This should be required reading for anyone interested in understanding human behavior.",
+  },
+  {
+    id: "9",
+    bookId: "5",
+    name: "Bilal Mahmood",
+    avatar: "https://i.pravatar.cc/150?u=bilal",
+    rating: 4,
+    date: "April 19, 2023",
+    content:
+      "Hawking makes complex cosmological concepts accessible to the general reader. His explanations of black holes, the big bang, and the nature of time are clear and engaging. While some sections require concentration, the book never feels overwhelming for a non-specialist.",
+  },
+  {
+    id: "10",
+    bookId: "6",
+    name: "Nadia Chaudhry",
+    avatar: "https://i.pravatar.cc/150?u=nadia",
+    rating: 5,
+    date: "May 30, 2023",
+    content:
+      "Harari's sweeping history of humankind is both informative and thought-provoking. His analysis of the cognitive, agricultural, and scientific revolutions provides a framework for understanding our past and contemplating our future. The writing is engaging and accessible without sacrificing depth.",
+  },
+  {
+    id: "11",
+    bookId: "7",
+    name: "Tariq Jameel",
+    avatar: "https://i.pravatar.cc/150?u=tariq",
+    rating: 4,
+    date: "July 2, 2023",
+    content: "Fascinating insights into the human mind.",
+  },
+  {
+    id: "12",
+    bookId: "7",
+    name: "Hina Pervaiz",
+    avatar: "https://i.pravatar.cc/150?u=hina",
+    rating: 5,
+    date: "June 15, 2023",
+    content:
+      "Freud's analysis of dreams opened up a whole new understanding of the unconscious mind. While some of his theories have been challenged by modern psychology, his influence on our understanding of the human psyche is undeniable. The book provides fascinating case studies and interpretations that continue to provoke thought and discussion more than a century after its publication.",
+  },
+  {
+    id: "13",
+    bookId: "8",
+    name: "Kamran Akmal",
+    avatar: "https://i.pravatar.cc/150?u=kamran",
+    rating: 5,
+    date: "August 10, 2023",
+    content: "Revolutionary perspective on scientific progress.",
+  },
+  {
+    id: "14",
+    bookId: "8",
+    name: "Sana Mir",
+    avatar: "https://i.pravatar.cc/150?u=sana",
+    rating: 4,
+    date: "July 25, 2023",
+    content:
+      "Kuhn's concept of paradigm shifts transformed how we understand scientific advancement. This book challenges the notion that science progresses in a linear, cumulative fashion, instead arguing that revolutionary periods lead to fundamental shifts in scientific understanding. A must-read for anyone interested in the philosophy or history of science.",
+  },
+  {
+    id: "15",
+    bookId: "9",
+    name: "Rabia Iqbal",
+    avatar: "https://i.pravatar.cc/150?u=rabia",
+    rating: 5,
+    date: "September 5, 2023",
+    content:
+      "Deeply moving and profound. Frankl's insights on finding meaning even in the most horrific circumstances are life-changing.",
+  },
+  {
+    id: "16",
+    bookId: "9",
+    name: "Fawad Khan",
+    avatar: "https://i.pravatar.cc/150?u=fawad",
+    rating: 5,
+    date: "August 20, 2023",
+    content:
+      "This book should be required reading for every human being. Frankl's experiences in Nazi concentration camps and his subsequent development of logotherapy offer profound insights into the human condition and our search for meaning. His assertion that we cannot avoid suffering but can choose how to cope with it gives hope even in the darkest times.",
+  },
+  {
+    id: "17",
+    bookId: "10",
+    name: "Yasir Hussain",
+    avatar: "https://i.pravatar.cc/150?u=yasir",
+    rating: 4,
+    date: "October 12, 2023",
+    content: "Timeless strategic wisdom applicable beyond the battlefield.",
+  },
+  {
+    id: "18",
+    bookId: "10",
+    name: "Mehwish Hayat",
+    avatar: "https://i.pravatar.cc/150?u=mehwish",
+    rating: 5,
+    date: "September 30, 2023",
+    content:
+      "Sun Tzu's ancient wisdom transcends its military origins to offer insights applicable to business, politics, and personal strategy. The principles of knowing yourself and your opponent, avoiding strength and attacking weakness, and winning without fighting are as relevant today as they were 2,500 years ago. The translation is clear and accessible, making the profound concepts easy to grasp.",
+  },
+  {
+    id: "19",
+    bookId: "11",
+    name: "Adnan Siddiqui",
+    avatar: "https://i.pravatar.cc/150?u=adnan",
+    rating: 5,
+    date: "November 8, 2023",
+    content: "Brilliant explanation of evolutionary biology. Changed my understanding of life itself.",
+  },
+  {
+    id: "20",
+    bookId: "11",
+    name: "Sajal Aly",
+    avatar: "https://i.pravatar.cc/150?u=sajal",
+    rating: 4,
+    date: "October 25, 2023",
+    content:
+      "Dawkins presents complex evolutionary concepts in an accessible way. His gene-centered view of evolution challenges traditional thinking and provides a fascinating framework for understanding the natural world. While some may find his style provocative, the scientific insights are invaluable.",
+  },
+  {
+    id: "21",
+    bookId: "12",
+    name: "Humayun Saeed",
+    avatar: "https://i.pravatar.cc/150?u=humayun",
+    rating: 4,
+    date: "December 3, 2023",
+    content: "Challenging but rewarding philosophical masterpiece.",
+  },
+  {
+    id: "22",
+    bookId: "12",
+    name: "Mahira Khan",
+    avatar: "https://i.pravatar.cc/150?u=mahira",
+    rating: 5,
+    date: "November 18, 2023",
+    content:
+      "Kant's magnum opus revolutionized philosophy by synthesizing rationalism and empiricism. His exploration of the limits of human knowledge and the structures of the mind that shape our experience remains profoundly influential. While the text is notoriously difficult, this translation makes it as accessible as possible without sacrificing the depth and precision of Kant's thought.",
+  },
+]
+
