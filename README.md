@@ -36,7 +36,7 @@ BookHaven is a digital sanctuary for discovering and sharing philosophical and i
 1. Clone the repository:
 
 \`\`\`bash
-git clone https://github.com/yourusername/bookhaven.git
+git clone https://https://github.com/Marium-8707/BookHaven
 cd bookhaven
 
 ### Dependency Issues
